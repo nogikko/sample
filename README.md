@@ -20,12 +20,12 @@ Private APIを使用する場合はAPIキーとシークレットキーも設定
 ```
 
 HTTP用のリクエストモジュールを各言語インストールします
-### Javascript
+##### Javascript
 ```
 npm install -g request
 ```
 
-### Python
+#### Python
 ```
 pip install requests
 ```
@@ -35,9 +35,7 @@ pip install requests
 
 必要に応じて、実行したいAPIのパラメータを変更してください
 ### GET
-#### JavaScript
-
-nodejs/request.js
+#### JavaScript (request.js)
 ```
 var method = 'GET';
 var path = '/v1/exchange/getOrderBooks';
@@ -46,8 +44,7 @@ var data = {
 }
 ```
 
-#### Python
-python2/request.js
+#### Python (request.py)
 ```
 method         = 'GET'
 path           = '/v1/exchange/getOrderBooks'
@@ -60,10 +57,7 @@ data      = {
 
 必要に応じて、実行したいAPIのパラメータを変更してください
 ### GET
-
-### JavaScript
-
-request.js
+#### JavaScript (request.js)
 ```
 var method = 'GET';
 var path = '/v1/exchange/getPositions';
@@ -73,8 +67,7 @@ var data = {
 }
 ```
 
-### Python
-prequest.js
+#### Python (request.py)
 ```
 Private GET
 method         = 'GET'
@@ -85,8 +78,7 @@ data      = {
 ```
 
 ### POST
-request.js
-### JavaScript
+#### JavaScript (request.js)
 ```
 var method    = 'POST';
 var path     = '/v1/exchange/order';
@@ -99,8 +91,7 @@ var data      = {
 }
 ```
 
-### Python
-request.js
+#### Python (request.py)
 ```
 method         = 'POST'
 path           = '/v1/exchange/order'
@@ -124,6 +115,3 @@ node request.js
 ```
 python request.js
 ```
-
-
-
